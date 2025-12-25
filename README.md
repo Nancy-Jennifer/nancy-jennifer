@@ -16,6 +16,9 @@ Python (Pandas, NumPy, Matplotlib), Jupyter Notebook
 - Mise en évidence de leviers RH actionnables (ancienneté, surcharge de travail, satisfaction)
 - Aide à la priorisation des actions de rétention
 - Support analytique à la prise de décision stratégique RH
+  
+![Attrition des employés en fonction de l’ancienneté](images/attrition_par_anciennete.png)
+
 
 
 ---
