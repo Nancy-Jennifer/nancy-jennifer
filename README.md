@@ -19,8 +19,6 @@ Python (Pandas, NumPy, Matplotlib), Jupyter Notebook
   
 ![Attrition des employés en fonction de l’ancienneté](images/attrition_par_anciennete.png)
 
-
-
 ---
 
 ### 2️⃣ Télécommunications – Analyse de la Qualité de Service (QoS)
