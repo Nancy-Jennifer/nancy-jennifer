@@ -21,23 +21,20 @@ Python (Pandas, NumPy, Matplotlib), Jupyter Notebook
 
 ---
 
-### 2️⃣ Télécommunications – Analyse de la Qualité de Service (QoS)
-**Problème métier**  
-Difficulté à évaluer objectivement la performance du réseau et à identifier les zones ou indicateurs critiques impactant l’expérience client.
+### 📡 Telecom – Qualité de Service (QoS)
+
+**Problématique**  
+Comment synthétiser la qualité de la voix réseau afin de comparer objectivement les performances selon les environnements (urbain, rural, indoor, outdoor) et identifier les zones à risque ?
 
 **Approche analytique**  
-- Analyse de KPI réseau (QoS, performance, continuité de service)
-- Comparaison des performances par zone et par indicateur
-- Synthèse analytique orientée décision
+Construction d’un **score voix composite (0–100)** à partir de plusieurs KPI réseau (délai d’établissement, taux de réussite des appels, qualité radio, MOS), avec pondération et normalisation des indicateurs.
 
-**Stack technique**  
-Python, analyse de données, reporting analytique
+**Impact métier**  
+- Comparaison claire de la performance voix par environnement  
+- Identification automatique des environnements à risque  
+- Aide à la priorisation des actions d’optimisation réseau
 
-**Impact & valeur métier**  
-- Identification des axes d’amélioration prioritaires du réseau
-- Meilleure lisibilité des performances pour les décideurs
-- Contribution à l’amélioration de la qualité de service et de la satisfaction client
-
+![Score voix par environnement](images/score_voix_par_environnement.png)
 
 ---
 
