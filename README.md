@@ -55,4 +55,5 @@ HTML, JavaScript, Leaflet
 - Support visuel pour la prise de décision tout en maintenant la clarté.
 - Version interactive complète disponible via le lien, avec possibilité d’explorer les points MOS voix, zoom et popups
 
-Carte interactive P1 – Visualisation complète
+[Carte interactive P1 – Visualisation complète](https://nancy-jennifer.github.io/carte-leaflet/carte_leaflet_mos.html)
+
