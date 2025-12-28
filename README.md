@@ -43,14 +43,16 @@ Construction d’un **score voix composite (0–100)** à partir de plusieurs KP
 Données techniques difficiles à interpréter rapidement par des profils non techniques.
 
 **Approche analytique**  
-- Transformation de données brutes en visualisation interactive
-- Mise en place d’une carte géographique dynamique
-- Focus sur la lisibilité et l’accessibilité de l’information
+- Transformation des données brutes en visualisation interactive
+- Carte statique intégrée au README pour un accès immédiat et lisible
+- Stack technique : HTML, JavaScript, Leaflet
 
 **Stack technique**  
 HTML, JavaScript, Leaflet
 
 **Impact & valeur métier**  
-- Réduction du temps de compréhension des données
-- Support visuel à la prise de décision
-- Valorisation des données techniques auprès de profils métier
+- Réduction du temps de compréhension des données pour les décideurs
+- Support visuel pour la prise de décision tout en maintenant la clarté.
+- Version interactive complète disponible via le lien, avec possibilité d’explorer les points MOS voix, zoom et popups
+
+Carte interactive P1 – Visualisation complète
