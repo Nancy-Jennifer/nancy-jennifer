@@ -42,6 +42,8 @@ Construction d’un **score voix composite (0–100)** à partir de plusieurs KP
 
 ![Carte statique MOS voix – ARCEP 2022](images/Leaflet_statique.png)
 
+*Lecture métier : cette carte met en évidence la distribution géographique des points de mesure MOS voix et permet d’identifier rapidement les zones de performance hétérogène, en particulier sur les axes de transport et en zones peu denses.*
+
 **Problème métier**  
 Données techniques difficiles à interpréter rapidement par des profils non techniques.
 
