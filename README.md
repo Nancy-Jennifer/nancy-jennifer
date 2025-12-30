@@ -39,6 +39,9 @@ Construction d’un **score voix composite (0–100)** à partir de plusieurs KP
 ---
 
 ### 3️⃣ Visualisation interactive – Carte MOS
+
+![Carte statique MOS voix – ARCEP 2022](images/Leaflet_statique.png)
+
 **Problème métier**  
 Données techniques difficiles à interpréter rapidement par des profils non techniques.
 
