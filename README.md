@@ -17,7 +17,7 @@ Python (Pandas, NumPy, Matplotlib), Jupyter Notebook
 - Aide à la priorisation des actions de rétention
 - Support analytique à la prise de décision stratégique RH
   
-<img src="images/attrition_par_anciennete" width="700">
+<img src="images/attrition_par_anciennete.png" width="700">
 
 🔎 Voir l’analyse complète :
 https://nancy-jennifer.github.io/people-analytics/attrition/
