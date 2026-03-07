@@ -17,7 +17,7 @@ Python (Pandas, NumPy, Matplotlib), Jupyter Notebook
 - Aide à la priorisation des actions de rétention
 - Support analytique à la prise de décision stratégique RH
   
-![Attrition des employés en fonction de l’ancienneté](images/attrition_par_anciennete.png)
+<img src="images/attrition_par_anciennete" width="700">
 
 🔎 Voir l’analyse complète :
 https://nancy-jennifer.github.io/people-analytics/attrition/
@@ -37,7 +37,7 @@ Construction d’un **score voix composite (0–100)** à partir de plusieurs KP
 - Identification automatique des environnements à risque  
 - Aide à la priorisation des actions d’optimisation réseau
 
-![Score voix par environnement](images/score_voix_par_environnement.png)
+<img src="images/score_voix_par_environnement.png" width="700">
 
 🔎 Voir l’analyse complète :
 https://nancy-jennifer.github.io/telecoms/projet2_arcep2024.html
