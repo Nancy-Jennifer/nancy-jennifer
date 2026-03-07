@@ -97,6 +97,12 @@ DuckDB (SQL analytique), Python, Matplotlib, Quarto
 - Détection des goulots organisationnels liés aux validations
 - Aide à la priorisation des actions d’optimisation opérationnelle
 
+#### Exemple de résultat analytique
+
+![Coût total des retards par processus](assets/figs/delay_cost_by_process.png)
+
+*Estimation de l’impact financier des retards opérationnels par processus.*
+
 🔎 Voir l’analyse complète :
 https://nancy-jennifer.github.io/people-analytics/operational-performance/
 
