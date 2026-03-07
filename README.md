@@ -19,6 +19,9 @@ Python (Pandas, NumPy, Matplotlib), Jupyter Notebook
   
 ![Attrition des employés en fonction de l’ancienneté](images/attrition_par_anciennete.png)
 
+🔎 Voir l’analyse complète :
+https://nancy-jennifer.github.io/people-analytics/attrition/
+
 ---
 
 ### 📡 Telecom – Qualité de Service (QoS)
@@ -35,6 +38,9 @@ Construction d’un **score voix composite (0–100)** à partir de plusieurs KP
 - Aide à la priorisation des actions d’optimisation réseau
 
 ![Score voix par environnement](images/score_voix_par_environnement.png)
+
+🔎 Voir l’analyse complète :
+https://nancy-jennifer.github.io/telecoms/projet2_arcep2024.html
 
 ---
 
@@ -61,4 +67,37 @@ HTML, JavaScript, Leaflet
 - Version interactive complète disponible via le lien, avec possibilité d’explorer les points MOS voix, zoom et popups
 
 [Carte interactive P1 – Visualisation complète](https://nancy-jennifer.github.io/carte-leaflet/carte_leaflet_mos.html)
+
+🔎 Voir l’analyse complète :
+https://nancy-jennifer.github.io/telecoms/projet1_arcep2022.html
+
+---
+
+### 3️⃣ Performance opérationnelle – Optimisation des workflows
+
+**Problème métier**
+
+Les organisations exécutent leurs activités à travers des workflows internes (validation, traitement, approbation).  
+Lorsque ces processus deviennent inefficients, les retards s’accumulent, les coûts augmentent et la performance globale se dégrade.
+
+**Approche analytique**
+
+- Analyse des écarts entre temps estimé et temps réel
+- Identification des types de tâches générant le plus de retard
+- Estimation du coût opérationnel des délais
+- Détection des combinaisons Process × Approval Level générant des frictions
+
+**Stack technique**
+
+DuckDB (SQL analytique), Python, Matplotlib, Quarto
+
+**Impact & valeur métier**
+
+- Identification des workflows les plus inefficients
+- Détection des goulots organisationnels liés aux validations
+- Aide à la priorisation des actions d’optimisation opérationnelle
+
+🔎 Voir l’analyse complète :
+https://nancy-jennifer.github.io/people-analytics/operational-performance/
+
 
