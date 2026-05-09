@@ -1,7 +1,37 @@
 ## 🚀 Projets phares
 
-### 1️⃣ People Analytics – Analyse de l’attrition des employés
-**Problème métier**  
+---
+
+### 1️⃣ Télécom – Pilotage du churn & revenu à risque
+
+**Problématique métier**  
+Comment identifier les segments clients les plus exposés à la résiliation afin de réduire le churn, protéger le revenu et prioriser les actions de fidélisation ?
+
+**Approche analytique**  
+- Analyse du churn selon le type de contrat et l’ancienneté client
+- Segmentation des profils à risque
+- Estimation du revenu exposé au churn (Revenue at Risk)
+- Construction d’un dashboard décisionnel orienté pilotage commercial
+
+**Stack technique**  
+SQL, Python, Power BI, Quarto
+
+**Impact & valeur métier**  
+- Identification des segments clients les plus critiques
+- Priorisation des actions de rétention
+- Quantification du revenu à risque
+- Support analytique à la prise de décision commerciale
+
+<img src="images/dashboard_churn.png" width="700">
+
+🔎 Voir l’analyse complète :  
+https://nancy-jennifer.github.io/telecoms/projet_churn/
+
+---
+
+### 2️⃣ People Analytics – Analyse de l’attrition des employés
+
+**Problématique métier**  
 Taux d’attrition élevé et manque de visibilité sur les facteurs réels de départ des employés, rendant les décisions RH peu ciblées.
 
 **Approche analytique**  
@@ -13,93 +43,64 @@ Taux d’attrition élevé et manque de visibilité sur les facteurs réels de d
 Python (Pandas, NumPy, Matplotlib), Jupyter Notebook
 
 **Impact & valeur métier**  
-- Mise en évidence de leviers RH actionnables (ancienneté, surcharge de travail, satisfaction)
+- Mise en évidence de leviers RH actionnables
 - Aide à la priorisation des actions de rétention
 - Support analytique à la prise de décision stratégique RH
-  
+
 <img src="images/attrition_par_anciennete.png" width="700">
 
-🔎 Voir l’analyse complète :
+🔎 Voir l’analyse complète :  
 https://nancy-jennifer.github.io/people-analytics/attrition/
 
 ---
 
-### 📡 Telecom – Qualité de Service (QoS)
+### 3️⃣ Télécom – Benchmark QoS France 2024 vs standards internationaux
 
-**Problématique**  
-Comment synthétiser la qualité de la voix réseau afin de comparer objectivement les performances selon les environnements (urbain, rural, indoor, outdoor) et identifier les zones à risque ?
+**Problématique métier**  
+Comment positionner la qualité de service mobile face aux standards internationaux afin d’identifier les écarts critiques et orienter les décisions d’investissement réseau ?
 
 **Approche analytique**  
-Construction d’un **score voix composite (0–100)** à partir de plusieurs KPI réseau (délai d’établissement, taux de réussite des appels, qualité radio, MOS), avec pondération et normalisation des indicateurs.
+- Benchmark des KPI QoS mobiles
+- Comparaison ARCEP / ITU / Banque Mondiale
+- Analyse des écarts de performance
+- Identification des leviers d’amélioration prioritaires
 
-**Impact métier**  
-- Comparaison claire de la performance voix par environnement  
-- Identification automatique des environnements à risque  
-- Aide à la priorisation des actions d’optimisation réseau
+**Stack technique**  
+Python, SQL, Quarto
+
+**Impact & valeur métier**  
+- Identification des écarts critiques de performance
+- Aide à la priorisation des investissements réseau
+- Support aux décisions stratégiques liées à l’expérience client
 
 <img src="images/score_voix_par_environnement.png" width="700">
 
-🔎 Voir l’analyse complète :
+🔎 Voir l’analyse complète :  
 https://nancy-jennifer.github.io/telecoms/projet2_arcep2024.html
 
 ---
 
-### 3️⃣ Visualisation interactive – Carte MOS
+### 4️⃣ Performance opérationnelle – Optimisation des workflows
 
-![Carte statique MOS voix – ARCEP 2022](images/Leaflet_statique.png)
-
-*Lecture métier : cette carte met en évidence la distribution géographique des points de mesure MOS voix et permet d’identifier rapidement les zones de performance hétérogène, en particulier sur les axes de transport et en zones peu denses.*
-
-**Problème métier**  
-Données techniques difficiles à interpréter rapidement par des profils non techniques.
-
-**Approche analytique**  
-- Transformation des données brutes en visualisation interactive
-- Carte statique intégrée au README pour un accès immédiat et lisible
-- Stack technique : HTML, JavaScript, Leaflet
-
-**Stack technique**  
-HTML, JavaScript, Leaflet
-
-**Impact & valeur métier**  
-- Réduction du temps de compréhension des données pour les décideurs
-- Support visuel pour la prise de décision tout en maintenant la clarté.
-- Version interactive complète disponible via le lien, avec possibilité d’explorer les points MOS voix, zoom et popups
-
-[Carte interactive P1 – Visualisation complète](https://nancy-jennifer.github.io/carte-leaflet/carte_leaflet_mos.html)
-
-🔎 Voir l’analyse complète :
-https://nancy-jennifer.github.io/telecoms/projet1_arcep2022.html
-
----
-
-### 3️⃣ Performance opérationnelle – Optimisation des workflows
-
-**Problème métier**
-
+**Problématique métier**  
 Les organisations exécutent leurs activités à travers des workflows internes (validation, traitement, approbation).  
 Lorsque ces processus deviennent inefficients, les retards s’accumulent, les coûts augmentent et la performance globale se dégrade.
 
-**Approche analytique**
-
+**Approche analytique**  
 - Analyse des écarts entre temps estimé et temps réel
 - Identification des types de tâches générant le plus de retard
 - Estimation du coût opérationnel des délais
 - Détection des combinaisons Process × Approval Level générant des frictions
 
-**Stack technique**
-
+**Stack technique**  
 DuckDB (SQL analytique), Python, Matplotlib, Quarto
 
-**Impact & valeur métier**
-
+**Impact & valeur métier**  
 - Identification des workflows les plus inefficients
 - Détection des goulots organisationnels liés aux validations
 - Aide à la priorisation des actions d’optimisation opérationnelle
 
 <img src="images/delay_cost_by_process.png" width="700">
 
-🔎 Voir l’analyse complète :
-https://nancy-jennifer.github.io/people-analytics/operational-performance/
-
-
+🔎 Voir l’analyse complète :  
+https://nancy-jennifer.github.io/operational-performance/workflow-performance/
